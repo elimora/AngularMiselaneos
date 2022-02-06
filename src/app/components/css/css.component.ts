@@ -7,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
       css works!
     </p>
   `,
-  styles: [
-  ]
+  styles: [`
+    p{
+     //color:red;  
+     font-size:40px;  
+     }
+  `]
 })
 export class CssComponent implements OnInit {
 
